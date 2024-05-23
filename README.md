@@ -2,9 +2,7 @@
 
 This is my second website coded with HTML/CSS. Soon I will integrate Javascript for some nice animations.  I've decided to make a combination project by creating a discord bot and then making a website for Users to see its function and install from. 
 
-I've decided to completely change up the template from my previous website o see different ways to organize elements, in the XELO website we now have many body sections and only 1 page.  I value quality over quantity so decided to see how much I can improve
-
-on one page websites.
+I've decided to completely change up the template from my previous website o see different ways to organize elements, in the XELO website we now have many body sections and only 1 page.  I value quality over quantity so decided to see how much I can improve on one page websites.
 
 **FILES**
 
