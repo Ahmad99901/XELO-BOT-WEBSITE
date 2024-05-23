@@ -6,19 +6,26 @@ I've decided to completely change up the template from my previous website o see
 
 on one page websites.
 
-FILES
+**FILES**
 
 Xelo.html
+
 styleXelo.css
+
 images
 
-Page and its body section
+**THE PAGE**
 
 Header - Download link for the Xelo discord bot
+
 Body section - Listing basic discord bot functions
+
 Body section 2 - Listing Commands of Xelo Bot
+
 Body section 3 - Q%A about the bot/me 
+
 Body section 4 - Simply an image showing the commands being used in discord
+
 Footer - Simply a footer (if real website with domain, would provide business info such as email/location/etc)
 
 Huge thanks as always to LearnCodeAcademy for being the reason I am able to create and improve on websites and showing the key components to be a great web designer. Thank you to everyone who sees this!
