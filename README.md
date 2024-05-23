@@ -7,7 +7,9 @@ I've decided to completely change up the template from my previous website o see
 **FILES**
 
 Xelo.html
+
 styleXelo.css
+
 images
 
 **THE PAGE**
