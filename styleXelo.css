@@ -1,0 +1,271 @@
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url("images/black-concrete-wall_24972-1046.avif");
+  font-size: large;
+  color: #000000;
+  margin: 0%;
+  padding: 0%;
+  background-size: 100%;
+}
+
+/* HEADER PART */ 
+header {
+  background: rgb(0, 0, 0);
+  color: rgb(253, 253, 253);
+  background-image: url("images/black-concrete-wall_24972-1046.avif");
+  background-size: 100%;
+  padding: 5px;
+  background-position: center;
+  height: 47px; /*Remember if needed to go back to 400px to see search bar*/
+  text-align: center;
+  border: 1px solid rgb(205, 22, 221);
+  border-radius:0%;
+  border-left: 1px;
+}
+header a {
+  text-transform: uppercase;
+}
+/* LOGO NOT NEEDED SINCE IT WILL BE UPLOADED FOR NEW WEBSITE
+header .logo a{
+  background-image: url(images/christmas-festival-tech-circle-signal-interface-futuristic-technology-icon-element-abstract-background-illustration-png.webp);
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 100px;
+  position: relative;
+  text-indent: -9999999px;
+  bottom: -10px;
+  width: 80px;
+  left: 0px;
+}
+*/
+
+/* SEARCH BAR 
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 60px;
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+END OF CODE FOR SEARCH BAR */
+
+nav ul {
+  margin: -5px;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+}
+
+nav li {
+  display: inline-block;
+  margin: 8px;
+  margin-left: 850px;
+}
+
+.custom-link {
+  /* Your styling properties here */
+  text-decoration: underline; /* Underlines the link text */
+  /* Add more styling properties as needed */
+}
+
+/* FEATURES PART (3 images below the header and after that) */
+.features {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(205, 22, 221);
+  border-radius:0%;
+  border-left: 1px;
+}
+.features figure {
+  margin: auto;
+  text-transform: uppercase;
+  bottom: -5px;
+  text-align:center;
+  width: 400px;
+  font-size: 25px;
+}
+.features figure img {
+  border: 2px solid rgb(167, 170, 11);
+  border-radius:10%;
+  box-shadow: rgb(255, 255, 255) 0px 0px 10px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.imageL {
+  display: flex;
+  align-items: center;
+ 
+}
+.imageL img {
+  width: 500px;
+  height: 355px;
+  margin-left: 800px;
+  margin-top: -300px;
+  margin-bottom: -600px;
+  padding: 200px;
+}
+
+/* Right side of text for future developer comment */
+.right-text {
+  text-align: center; /* Align text to the right */
+  margin-top: auto; /* Push the text to the bottom */
+  margin-left: 250px;
+  margin-bottom: 80px;
+  border: 20px solid #020202;
+  border-radius: 0%;
+  background-color: #f0f0f0;
+  width: 700px;
+  height: 350px;
+}
+
+/* Title  BOT FUNCTIONS*/
+div h1 {
+  text-align: center;
+  margin-right: 0px;
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  position: relative;
+  bottom: -10px;
+  margin: 4px;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+/*UP-TEXT SECTION*/
+.up-text {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(205, 22, 221);
+  border-radius:0%;
+  border-left: 100px;
+}
+
+.up-text figure {
+  margin: auto;
+  bottom: -5px;
+  text-align:left;
+  width: 2000px;
+}
+
+.up-text h1 {
+  text-decoration: underline;
+}
+
+.up-text h4 {
+  color: rgb(205, 22, 221);
+}
+
+.up-text p{
+  color: rgb(255, 255, 255);
+}
+
+/*FOUNDER SECTION*/
+.left-text {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(221, 158, 22);
+  border-radius:0%;
+  border-left: 100px;
+}
+
+.left-text figure {
+  margin: auto;
+  bottom: -5px;
+  text-align:center;
+  width: 2000px;
+}
+
+.left-text h1 {
+  text-decoration: underline;
+}
+
+.left-text h4 {
+  color: rgb(221, 158, 22);
+}
+
+.left-text p{
+  color: rgb(255, 255, 255);
+}
+
+/*BEFORE FOOTER SECTION*/
+.down-text {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(221, 158, 22);
+  border-radius:0%;
+  border-left: 100px;
+  background-image: url("images/black-concrete-wall_24972-1046.avif");
+  background-size: 100%;
+}
+
+.down-text figure {
+  margin: auto;
+  bottom: -5px;
+  text-align:center;
+  width: 2000px;
+}
+
+.down-text h4 {
+  color: rgb(221, 158, 22);
+}
+
+/* FOOTER PART (INCLUDING BUTTON) */
+footer{
+  background: rgb(0, 0, 0);
+  color: lightgray;
+  font-size: 15px;
+  text-align: center;
+  padding: 60px;
+  margin: 0px;
+}
+
+li:first-child {
+  color: white;
+}
